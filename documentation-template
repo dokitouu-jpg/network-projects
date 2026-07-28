@@ -1,0 +1,209 @@
+# Project Title
+
+## Overview
+
+Brief description of the project.
+
+Example:
+
+> This project demonstrates the implementation of VLAN segmentation and inter-VLAN routing in a simulated enterprise network environment using Cisco IOS.
+
+---
+
+## Objectives
+
+The objectives of this project are:
+
+* Objective 1
+* Objective 2
+* Objective 3
+
+Example:
+
+* Configure VLAN segmentation
+* Implement trunk connections between switches
+* Verify communication between network segments
+
+---
+
+## Technical Concepts
+
+### Concept 1
+
+Explain the technology or protocol.
+
+Example:
+
+> A VLAN (Virtual Local Area Network) is a logical network segmentation method that allows devices to be grouped into separate broadcast domains regardless of their physical location.
+
+### Concept 2
+
+Explain additional concepts used in the project.
+
+---
+
+# Network Topology
+
+## Architecture
+
+Describe the topology before presenting the diagram.
+
+Example:
+
+> The topology consists of two access switches connected to a router. VLANs are configured on the switches, while the router provides inter-VLAN communication.
+
+![Network Topology](topology/topology.png)
+
+**Figure 1 — Network topology**
+
+---
+
+# Addressing Plan
+
+| Device | Interface | IP Address | Subnet Mask | Gateway |
+| ------ | --------- | ---------- | ----------- | ------- |
+| R1     | G0/0      | X.X.X.X    | X.X.X.X     | -       |
+| SW1    | VLAN X    | X.X.X.X    | X.X.X.X     | X.X.X.X |
+| PC1    | NIC       | X.X.X.X    | X.X.X.X     | X.X.X.X |
+
+---
+
+# Configuration
+
+## Step 1 — Configuration Name
+
+### Objective
+
+Explain what is being configured and why.
+
+Example:
+
+> The first step is configuring VLANs on the switches to separate users into different logical networks.
+
+### Configuration
+
+```bash
+# Insert commands here
+
+Router(config)# example command
+```
+
+### Verification
+
+```bash
+# Insert verification commands
+
+show command here
+```
+
+![Configuration Verification](screenshots/configuration.png)
+
+**Figure X — Description of the output**
+
+---
+
+## Step 2 — Configuration Name
+
+### Objective
+
+Explain the purpose of this step.
+
+### Configuration
+
+```bash
+# Insert commands here
+```
+
+### Verification
+
+```bash
+# Insert verification commands here
+```
+
+---
+
+# Testing & Validation
+
+## Connectivity Tests
+
+Example:
+
+```bash
+PC1> ping X.X.X.X
+```
+
+Result:
+
+```
+Successful output
+```
+
+Explanation:
+
+> The successful responses confirm that connectivity between the devices has been established.
+
+---
+
+## Verification Commands
+
+Commands used:
+
+```bash
+show running-config
+show ip interface brief
+show ip route
+show vlan brief
+```
+
+Explanation:
+
+* `show running-config` verifies the active configuration.
+* `show ip interface brief` confirms interface status and addressing.
+* `show ip route` validates routing information.
+
+---
+
+# Troubleshooting
+
+## Issue 1 — Problem Description
+
+**Symptoms:**
+
+Describe what happened.
+
+**Cause:**
+
+Explain the reason.
+
+**Resolution:**
+
+Explain how it was fixed.
+
+---
+
+# Results
+
+The project successfully demonstrated:
+
+* Result 1
+* Result 2
+* Result 3
+
+---
+
+# Lessons Learned
+
+Key takeaways from this project:
+
+* Concept understood
+* Configuration experience gained
+* Troubleshooting skills developed
+
+---
+
+# References
+
+* Cisco Documentation
+* Cisco IOS Configuration Guides
+* Jeremy's IT Lab — Free CCNA Course
+* Personal lab notes
