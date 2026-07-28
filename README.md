@@ -85,4 +85,4 @@ This standardized approach promotes consistency, maintainability, and reproducib
 
 **LinkedIn:** https://linkedin.com/in/dominique-kitou-3bb105319
 
-**Email:** dokitouu@gmail.com(mailto:dokitouu@gmail.com)
+**Email:** dokitouu@gmail.com
